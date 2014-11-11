@@ -8,6 +8,7 @@ If you are looking for an opinionated style guide for syntax, conventions, and s
 
   1. [Single Responsibility](#single-responsibility)
   1. [IIFE](#iife)
+  1. [References](#references)
   
 ## Single Responsibility
 
@@ -27,3 +28,11 @@ If you are looking for an opinionated style guide for syntax, conventions, and s
   *Why?*: When your code is minified and bundled into a single file for deployment to a production server, you could have collisions of variables and many global variables. An IIFE protects you against both of these by providing variable scope for each file.
   
 **[Back to top](#table-of-contents)**
+
+## References
+
+  - [Google Java Style Guide] (//google-styleguide.googlecode.com/svn/trunk/javaguide.html)
+  - [Java Programming Style Guide] (//alumnus.caltech.edu/~croft/research/java/guide/)
+  - [Central Washington Uni - Java Programming Style Guide] (//www.cwu.edu/~gellenbe/javastyle/)
+  - [Java Ranch - Java Programming Style Guide] (//www.javaranch.com/style.jsp)
+  - [Cay Horstmann's - Java Programming Style Guide] (//www.horstmann.com/bigj2/style.html)
