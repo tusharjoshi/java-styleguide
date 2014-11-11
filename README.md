@@ -6,15 +6,43 @@ If you are looking for an opinionated style guide for syntax, conventions, and s
 
 ## Table of Contents
 
-  1. [Single Responsibility](#single-responsibility)
+  1. [Source File Structure](#source-file-structure)
   1. [IIFE](#iife)
   1. [References](#references)
   
-## Single Responsibility
+## Source File Structure
 
-### Rule of 1
+### Order of elements
 
-  Contents here
+Order of the elements in a Java source file shall be
+
+  1. License section
+  1. package declaration
+  1. import statements
+  1. Functional comment for top level class
+  1. Exactly one top level class
+  
+### License section
+
+  TODO
+  
+### Package declaration
+
+  TODO
+  
+### Import statements
+
+  TODO
+  
+### Functional comment for top level class
+
+  TODO
+  
+### Exactly one top level class
+
+  TODO
+  
+  
 
 **[Back to top](#table-of-contents)**
 
@@ -30,6 +58,8 @@ If you are looking for an opinionated style guide for syntax, conventions, and s
 **[Back to top](#table-of-contents)**
 
 ## References
+
+These references are the starting points of this style guide.  Many more additions and changes are done on these initial styles.  Newly revealed patterns like clean code by Robert C Martin have influenced many of the styles in this list.
 
   - [Google Java Style Guide] (//google-styleguide.googlecode.com/svn/trunk/javaguide.html)
   - [Java Programming Style Guide] (//alumnus.caltech.edu/~croft/research/java/guide/)
