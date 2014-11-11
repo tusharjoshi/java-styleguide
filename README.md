@@ -20,29 +20,36 @@ Order of the elements in a Java source file shall be
   1. package declaration
   1. import statements
   1. Functional comment for top level class
-  1. Exactly one top level class
+  1. Class declaration
   
 ### License section
 
-  TODO
+  File shall start with a license statement.  For open source projects as well as commercial projects there is usually a license which comes here in a multiline comment.
   
 ### Package declaration
 
-  TODO
+  The package statement is not line-wrapped. The column limit does not apply to package statements.
   
 ### Import statements
 
-  TODO
+  - no wildcard imports in static or normal imports
+  - no import statements (IDE provides feature of fixing import statement which shall be used before committing the source file)
+  - Import statements are not line-wrapped. The column limit does not apply to import statements.
   
 ### Functional comment for top level class
 
-  TODO
+  There shall be a functional Javadoc comment for the top level class mentioning the usage of the class.  Main dependencies and calling mechanism which is not obviious from the source.
   
-### Exactly one top level class
+### Class declaration
+####Exactly one top level class
 
-  TODO
+  Each top-level class resides in a source file of its own.
   
-  
+####  Class elements ordering
+
+The ordering of the members of a class can have a great effect on learnability, but there is no single correct recipe for how to do it. Different classes may order their members differently.
+
+What is important is that each class order its members in some logical order, which its maintainer could explain if asked. For example, new methods are not just habitually added to the end of the class, as that would yield "chronological by date added" ordering, which is not a logical ordering.  
 
 **[Back to top](#table-of-contents)**
 
