@@ -62,7 +62,7 @@ Constants shall be kept in the class nearer to the functionality.  They should n
 
 ? Why: Keeping constants in one common constants class is not maintainable.  When there is a change in any of the constants it introduces potential regression for all the areas where this Constants class is used.
 
-? Other references: [Stackoverflow discussion](http://stackoverflow.com/questions/66066/what-is-the-best-way-to-implement-constants-in-java/66076#66076)
+? Other references: [Stackoverflow discussion](//stackoverflow.com/questions/66066/what-is-the-best-way-to-implement-constants-in-java/66076#66076)
 
 ```java
 /* avoid */
@@ -96,5 +96,6 @@ These references are the starting points of this style guide.  Many more additio
   - [Central Washington Uni - Java Programming Style Guide] (//www.cwu.edu/~gellenbe/javastyle/)
   - [Java Ranch - Java Programming Style Guide] (//www.javaranch.com/style.jsp)
   - [Cay Horstmann's - Java Programming Style Guide] (//www.horstmann.com/bigj2/style.html)
+  - [GeoSoft - Java Programming Style Guidelines] (//geosoft.no/development/javastyle.html)
   
 **[Back to top](#table-of-contents)**  
