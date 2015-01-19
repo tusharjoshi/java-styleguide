@@ -20,6 +20,7 @@ Order of the elements in a Java source file shall be
   1. import statements
   1. Functional comment for top level class
   1. Class declaration
+  1. Constants
   
 ### License section
 
@@ -51,6 +52,36 @@ Order of the elements in a Java source file shall be
 The ordering of the members of a class can have a great effect on learnability, but there is no single correct recipe for how to do it. Different classes may order their members differently.
 
 What is important is that each class order its members in some logical order, which its maintainer could explain if asked. For example, new methods are not just habitually added to the end of the class, as that would yield "chronological by date added" ordering, which is not a logical ordering.  
+
+**[Back to top](#table-of-contents)**
+
+### Constants
+#### Constants specific to functionality
+
+Constants shall be kept in the class nearer to the functionality.  They should not be kept in a common constant class.
+
+? Why: Keeping constants in one common constants class is not maintainable.  When there is a change in any of the constants it introduces potential regression for all the areas where this Constants class is used.
+
+```java
+/* avoid */
+public class Constants {
+	public static final String RATEOFINTEREST_TYPE = "Simple";
+	public static final String WELCOME_MESSAGE = "Welcome";
+}
+```
+
+```java
+/* recommended */
+public class InterestCalculator {
+	public static final String RATEOFINTEREST_TYPE = "Simple";
+	
+	/* other code */
+}
+
+public class WelcomeView {
+	public static final String WELCOME_MESSAGE = "Welcome";
+}
+```
 
 **[Back to top](#table-of-contents)**
 
