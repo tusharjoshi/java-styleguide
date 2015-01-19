@@ -62,6 +62,8 @@ Constants shall be kept in the class nearer to the functionality.  They should n
 
 ? Why: Keeping constants in one common constants class is not maintainable.  When there is a change in any of the constants it introduces potential regression for all the areas where this Constants class is used.
 
+? Other references: [Stackoverflow discussion](http://stackoverflow.com/questions/66066/what-is-the-best-way-to-implement-constants-in-java/66076#66076)
+
 ```java
 /* avoid */
 public class Constants {
