@@ -91,7 +91,7 @@ public class WelcomeView {
 
 These references are the starting points of this style guide.  Many more additions and changes are done on these initial styles.  Newly revealed patterns like clean code by Robert C Martin have influenced many of the styles in this list.
 
-  - [Google Java Style Guide] (//google-styleguide.googlecode.com/svn/trunk/javaguide.html)
+  - [Google Java Style Guide] (//google.github.io/styleguide/javaguide.html)
   - [Java Programming Style Guide] (//alumnus.caltech.edu/~croft/research/java/guide/)
   - [Central Washington Uni - Java Programming Style Guide] (//www.cwu.edu/~gellenbe/javastyle/)
   - [Java Ranch - Java Programming Style Guide] (//www.javaranch.com/style.jsp)
