@@ -91,11 +91,11 @@ public class WelcomeView {
 
 These references are the starting points of this style guide.  Many more additions and changes are done on these initial styles.  Newly revealed patterns like clean code by Robert C Martin have influenced many of the styles in this list.
 
-  - [Google Java Style Guide] (//google.github.io/styleguide/javaguide.html)
-  - [Java Programming Style Guide] (//alumnus.caltech.edu/~croft/research/java/guide/)
-  - [Central Washington Uni - Java Programming Style Guide] (//www.cwu.edu/~gellenbe/javastyle/)
-  - [Java Ranch - Java Programming Style Guide] (//www.javaranch.com/style.jsp)
-  - [Cay Horstmann's - Java Programming Style Guide] (//www.horstmann.com/bigj2/style.html)
-  - [GeoSoft - Java Programming Style Guidelines] (//geosoft.no/development/javastyle.html)
+  - [Google Java Style Guide] (https://google.github.io/styleguide/javaguide.html)
+  - [Java Programming Style Guide] (http://alumnus.caltech.edu/~croft/research/java/guide/)
+  - [Java Ranch - Java Programming Style Guide] (http://www.javaranch.com/style.jsp)
+  - [Cay Horstmann's - Java Programming Style Guide] (http://www.horstmann.com/bigj2/style.html)
+  - [GeoSoft - Java Programming Style Guidelines] (http://geosoft.no/development/javastyle.html)
+  - [SEI CERT Oracle Coding Standard for Java] (https://www.securecoding.cert.org/confluence/display/java/SEI+CERT+Oracle+Coding+Standard+for+Java)
   
 **[Back to top](#table-of-contents)**  
