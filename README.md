@@ -7,6 +7,11 @@ If you are looking for an opinionated style guide for syntax, conventions, and s
 ## Table of Contents
 
   1. [Source File Structure](#source-file-structure)
+  1. [Packages](#packages)
+  1. [Constants](#constants)
+  1. [Variables](#variables)
+  1. [Classes](#classes)
+  1. [Functions](#functions)
   1. [References](#references)
   
 ## Source File Structure
@@ -41,22 +46,30 @@ Order of the elements in a Java source file shall be
   There shall be a functional Javadoc comment for the top level class mentioning the usage of the class.  Main dependencies and calling mechanism which is not obviious from the source.
 
 **[Back to top](#table-of-contents)**
-  
-### Class declaration
-####Exactly one top level class
 
-  Each top-level class resides in a source file of its own.
-  
-####  Class elements ordering
+## Packages
 
-The ordering of the members of a class can have a great effect on learnability, but there is no single correct recipe for how to do it. Different classes may order their members differently.
+### Package Identification
 
-What is important is that each class order its members in some logical order, which its maintainer could explain if asked. For example, new methods are not just habitually added to the end of the class, as that would yield "chronological by date added" ordering, which is not a logical ordering.  
+Packages shall be named starting with the reverse company name
+for example com.company.project.module
+
+? Why: To avoid namespace collision.
+
+### Package capitalization and words
+
+Package names shall be all small letters and single words 
+separated by dots.
+
+For example:
+```java
+package com.company.product.module;
+```
 
 **[Back to top](#table-of-contents)**
 
-### Constants
-#### Constants specific to functionality
+## Constants
+### Constants specific to functionality
 
 Constants shall be kept in the class nearer to the functionality.  They should not be kept in a common constant class.
 
@@ -84,6 +97,28 @@ public class WelcomeView {
 	public static final String WELCOME_MESSAGE = "Welcome";
 }
 ```
+
+**[Back to top](#table-of-contents)**
+
+## Variables
+
+**[Back to top](#table-of-contents)**
+  
+## Classes
+
+### Exactly one top level class
+
+  Each top-level class resides in a source file of its own.
+  
+###  Class elements ordering
+
+The ordering of the members of a class can have a great effect on learnability, but there is no single correct recipe for how to do it. Different classes may order their members differently.
+
+What is important is that each class order its members in some logical order, which its maintainer could explain if asked. For example, new methods are not just habitually added to the end of the class, as that would yield "chronological by date added" ordering, which is not a logical ordering. 
+
+**[Back to top](#table-of-contents)** 
+
+## Functions
 
 **[Back to top](#table-of-contents)**
 
