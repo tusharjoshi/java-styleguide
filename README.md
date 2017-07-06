@@ -7,14 +7,38 @@ If you are looking for an opinionated style guide for syntax, conventions, and s
 ## Table of Contents
 
   1. [Source File Structure](#source-file-structure)
+     1. [File Name](#file-name)
+     1. [File encoding](#file-encoding)
+     1. [Order of elements](#order-of-elements)
   1. [Packages](#packages)
   1. [Constants](#constants)
   1. [Variables](#variables)
   1. [Classes](#classes)
   1. [Functions](#functions)
+  1. [Comments](#comments)
   1. [References](#references)
   
 ## Source File Structure
+
+### File Name
+
+The source file name consists of the case-sensitive name of the top-level class it contains (of which there is exactly one), plus the .java extension.
+
+? Why: As dectated by Java compiler rules.
+
+? Why: Only one top level class is recommended and that class name 
+should be the file name
+
+### File encoding
+
+Source files are encoded in UTF-8.
+
+? Why: This will support cross platform and cross locale source
+
+? How: Modern IDEs have support for the encoding as global or project
+settings
+
+? Same as: Google Style Guide section 2.2
 
 ### Order of elements
 
@@ -119,6 +143,10 @@ What is important is that each class order its members in some logical order, wh
 **[Back to top](#table-of-contents)** 
 
 ## Functions
+
+**[Back to top](#table-of-contents)**
+
+## Comments
 
 **[Back to top](#table-of-contents)**
 
