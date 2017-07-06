@@ -1,6 +1,6 @@
 # Java Style Guide
 
-*Opinionated Java style guide for teams by [@tusharvjoshi](//twitter.com/tusharvjoshi)*
+*Opinionated Java Style Guide for Teams by [@tusharvjoshi](//twitter.com/tusharvjoshi)*
 
 If you are looking for an opinionated style guide for syntax, conventions, and structuring Java code, then step right in. This way of writing style guide is heavily inspired from [@john_papa](//twitter.com/john_papa). 
 
@@ -91,11 +91,12 @@ public class WelcomeView {
 
 These references are the starting points of this style guide.  Many more additions and changes are done on these initial styles.  Newly revealed patterns like clean code by Robert C Martin have influenced many of the styles in this list.
 
-  - [Google Java Style Guide] (https://google.github.io/styleguide/javaguide.html)
+  - [OpenJDK Community Guide](http://cr.openjdk.java.net/~alundblad/styleguide/index-v6.html)
+  - [Google Guide] (https://google.github.io/styleguide/javaguide.html)
   - [Java Programming Style Guide] (http://alumnus.caltech.edu/~croft/research/java/guide/)
-  - [Java Ranch - Java Programming Style Guide] (http://www.javaranch.com/style.jsp)
-  - [Cay Horstmann's - Java Programming Style Guide] (http://www.horstmann.com/bigj2/style.html)
-  - [GeoSoft - Java Programming Style Guidelines] (http://geosoft.no/development/javastyle.html)
+  - [Java Ranch Guide] (http://www.javaranch.com/style.jsp)
+  - [Cay Horstmann's Guide] (http://www.horstmann.com/bigj2/style.html)
+  - [GeoSoft Guide] (http://geosoft.no/development/javastyle.html)
   - [SEI CERT Oracle Coding Standard for Java] (https://www.securecoding.cert.org/confluence/display/java/SEI+CERT+Oracle+Coding+Standard+for+Java)
   
 **[Back to top](#table-of-contents)**  
