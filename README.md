@@ -38,7 +38,7 @@ Source files are encoded in UTF-8.
 ? How: Modern IDEs have support for the encoding as global or project
 settings
 
-? Same as: Google Style Guide section 2.2
+? Same as: Google Style Guide<sup>[1](#google-guide)</sup> section 2.2
 
 ### Order of elements
 
@@ -155,7 +155,7 @@ What is important is that each class order its members in some logical order, wh
 These references are the starting points of this style guide.  Many more additions and changes are done on these initial styles.  Newly revealed patterns like clean code by Robert C Martin have influenced many of the styles in this list.
 
   - [OpenJDK Community Guide](http://cr.openjdk.java.net/~alundblad/styleguide/index-v6.html)
-  - [Google Guide] (https://google.github.io/styleguide/javaguide.html)
+  - <a name="#google-guide">2</a> [Google Guide] (https://google.github.io/styleguide/javaguide.html)
   - [Java Programming Style Guide] (http://alumnus.caltech.edu/~croft/research/java/guide/)
   - [Java Ranch Guide] (http://www.javaranch.com/style.jsp)
   - [Cay Horstmann's Guide] (http://www.horstmann.com/bigj2/style.html)
